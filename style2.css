@@ -118,7 +118,7 @@ body{
 }
 
 .profile-image-wrapper img{
-    width: 90%;
+    width: 100%;
 }
 
 .profile-content-wrapper{
@@ -128,3 +128,30 @@ body{
 .profile-content-wrapper h1{
     color: lightseagreen;
 }
+
+/* Media Queries*/
+
+@media (max-width: 768px){
+    .subtitle{
+        font-size: 10px;   
+    }
+    .logo-wrapper img{
+        width: 25%;
+    }
+    .portfolio-items-wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
+
+@media (max-width: 360px){
+    .portfolio-items-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .subtitle{
+        font-size: 8px;
+    }
+}
+
