@@ -131,6 +131,7 @@ body{
 
 /* Media Queries*/
 
+
 @media (max-width: 768px){
     .subtitle{
         font-size: 10px;   
@@ -142,6 +143,11 @@ body{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .double-column-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }    
+
     
 }
 
@@ -153,5 +159,12 @@ body{
     .subtitle{
         font-size: 8px;
     }
+    .double-column-wrapper{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .profile-content-wrapper{
+        font-size: 10px;
+    }       
 }
 
