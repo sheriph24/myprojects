@@ -118,8 +118,7 @@ body{
 }
 
 .profile-image-wrapper img{
-    width: 100%;
-    height: 500px;
+    width: 90%;
 }
 
 .profile-content-wrapper{
