@@ -95,7 +95,7 @@ body{
 /* Needs to be more specific with selector */
 
 .img-text-wrapper .subtitle {
-    transition: 1s;
+    transition: 0.5s;
     font-weight: 600;
     color: transparent;
 }
@@ -134,7 +134,7 @@ body{
 
 @media (max-width: 768px){
     .subtitle{
-        font-size: 10px;   
+        font-size: 12px;   
     }
     .logo-wrapper img{
         width: 70%;
@@ -157,7 +157,7 @@ body{
         grid-template-columns: 1fr;
     }
     .subtitle{
-        font-size: 8px;
+        font-size: 10px;
     }
     .logo-wrapper img{
         width: 90%;
